@@ -46,6 +46,11 @@ body{
 }
 .boton-box-body{
     cursor: pointer;
-
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    width: 60%;
+    height: 40px;
 }
 
