@@ -4,20 +4,22 @@
 }
 body{
     background-color: bisque;
+    font-family: 'Varela Round', sans-serif;
+    min-width: 350px;
 }
 .box-principal{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 .box-title{
-    font-family: 'Varela Round', sans-serif;
     margin-top: 5%;
     margin-bottom: 5%;
     display: block;
     margin-right: 100%;
-    margin-left: 25%;
+    margin-left: 30%;
     font-size: 120%;
     color: white;
 }
@@ -25,6 +27,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 .box-body img {
@@ -64,12 +67,53 @@ body{
     margin-bottom: 5%;
 }
 .logo-fb{
-    max-width: 5.5%;
+    width: 5.5%;
 }
 .logo-tw{
-    max-width: 6.5%;
+    width: 6.5%;
 }
 .logo-ig{
-    max-width: 5.5%;
+    width: 5.5%;
 }
-
+@media (max-width: 500px){
+    .container{
+        flex-direction: column;
+    }
+    .box-title{
+        margin-left: 40%;
+        margin-top: 10%;
+        font-size: 80%;
+    }
+    .box-body{
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .box-body img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .box-body-text h1{
+        font-size: 95%;
+        margin-top: 5%;
+    }
+    .box-body-text p {
+        font-size: 80%;
+        margin-right: 5%;
+    }
+    .boton-box-body{
+        width: 20%;
+        margin-top: 5%;
+    }
+    .footer{
+        margin-right: 8%;
+    }
+    .logo-fb, .logo-ig{
+        width: 8%;
+    }
+    .logo-tw{
+        width: 10%;
+    }
+}
