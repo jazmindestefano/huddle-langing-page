@@ -54,7 +54,7 @@ body{
     border: 2px solid white;
     color: black;
     border-radius: 10px 10px 10px 10px;
-    width: 50%;
+    width: 20%;
     height: 40px;
     box-shadow: 1px 1px 5px 1px black;
 }
@@ -104,8 +104,8 @@ body{
         margin-right: 5%;
     }
     .boton-box-body{
-        width: 20%;
-        margin-top: 5%;
+        width: 15%;
+        height: 15%;
     }
     .footer{
         margin-right: 8%;
