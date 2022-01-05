@@ -12,7 +12,8 @@ body{
     flex-wrap: wrap;
 }
 .box-title{
-    margin-top: 10%;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 5%;
     margin-bottom: 5%;
     display: block;
     margin-right: 100%;
@@ -50,7 +51,25 @@ body{
     border: 2px solid white;
     color: black;
     border-radius: 10px 10px 10px 10px;
-    width: 60%;
+    width: 50%;
     height: 40px;
+    box-shadow: 1px 1px 5px 1px black;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.logo-fb{
+    max-width: 5.5%;
+}
+.logo-tw{
+    max-width: 6.5%;
+}
+.logo-ig{
+    max-width: 5.5%;
 }
 
